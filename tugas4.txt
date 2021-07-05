@@ -1,0 +1,23 @@
+1. query buat database
+
+CREATE DATABASE permainan;
+
+2. query buat table
+
+CREATE TABLE sepakbola ( id_pemain INT AUTO_INCREMENT PRIMARY KEY);
+
+3. query buat struktur table
+
+ALTER TABLE sepakbola ADD nama_pemain VARCHAR(100) NOT NULL,
+     ADD usia_pemain INT(2) NOT NULL,
+     ADD posisi_pemain VARCHAR(50) NOT NULL;
+
+4. query ubah nama table
+
+RENAME TABLE sepakbola TO sepakbola_indonesia;
+
+5. query hapus table dan database
+
+DROP TABLE sepakbola_indonesia;
+
+DROP DATABASE permainan;
